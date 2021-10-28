@@ -8,7 +8,7 @@ export function Profile() {
       <ProfileImage src={githubState.user.avatar} alt="Avatar of user" />
       <ProfileInfo>
         <>
-          <h1>Walter Welenir</h1>
+          <h1>{githubState.user.name}</h1>
           <ProfileInfoRow>
             <h3>Username:</h3>
             <a
